@@ -51,10 +51,6 @@ table {
 	border-spacing: 0;
 }
 
-.fa-laptop:before {
-    content: "\f109";
-    font-size: -webkit-xxx-large;
-}
 
 body {
 	-webkit-text-size-adjust: none;
