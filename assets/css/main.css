@@ -101,11 +101,18 @@ input, select, textarea {
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(68, 144, 156, 0.8), #2e3141), url(../../images/bg.jpg);
-		/* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg"); */
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
+	}
+
+	#internships {
+		background-image: linear-gradient(to top, rgba(68, 144, 156, 0.8), #2e3141), url(../../images/bg.jpg);
+	}
+
+	#virginiatech {
+    background-image: linear-gradient(to top, rgb(113, 1, 1, 0.88), #353849), url(../../images/bg.jpg);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3576,15 +3583,15 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
-	@media screen and (max-width: 1280px) {
-		#wrapper > header {
+	/* @media screen and (max-width: 1280px) {
+		/* #wrapper > header {
     padding: 9em 0 6.25em 0;
     background-color: #2e3141;
     background-image: linear-gradient(to top, rgba(68, 144, 156, 0.8), #2e3141), url(../../images/bg.jpg);
     background-size: auto, cover;
     background-position: center, 0% 30%;
     margin-bottom: -6.5em;
-	}
+	} */
 
 		/* #wrapper > header {
 			padding: 9em 0 6.25em 0 ;
@@ -3593,9 +3600,9 @@ input, select, textarea {
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
-		} */
+		}
 
-	}
+	} */
 
 	@media screen and (max-width: 980px) {
 
