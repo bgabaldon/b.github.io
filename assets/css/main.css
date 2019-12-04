@@ -115,6 +115,14 @@ input, select, textarea {
     background-image: linear-gradient(to top, rgb(113, 1, 1, 0.88), #353849), url(../../images/bg.jpg);
 	}
 
+	#travels {
+		background-image: linear-gradient(to top, rgba(58, 117, 52, 0.8), #353849), url(../../images/bg.jpg);
+	}
+
+	#life {
+		background-image: linear-gradient(to top, rgba(78, 30, 121, 0.8), rgba(46, 49, 65, 0.8)), url(../../images/bg.jpg);
+	}
+
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
